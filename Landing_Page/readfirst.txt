@@ -1,0 +1,1 @@
+open the landing page using the start,html file as they are linked to each other.

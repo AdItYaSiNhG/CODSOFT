@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(56, 55, 55);
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    transition: background-color 0.5s ease;
+  }
+  
+  .center {
+    text-align: center;
+    color: white;
+    transition: opacity 0.5s ease;
+  }
+  
+  #logo {
+    font-size: 100px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.5s ease;
+    color: rgb(235, 235, 235);
+    text-shadow: 5px 5px 10px rgb(222, 80, 235);
+  }
+
+  #method{
+    font-size: 35px;
+    font-weight: normal;
+    cursor: pointer;
+    transition: color 0.5s ease;
+    color: rgb(241, 234, 241);
+    text-shadow: 5px 5px 5px #4e4a4a;
+  }
+  
+  .fade-out {
+    opacity: 0;
+  }
+  
